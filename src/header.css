@@ -1,0 +1,53 @@
+.header { 
+    height : 2.4rem ;
+    font-size: 1.1rem;
+    font-family : 'Eina Bold',sans-serif!important;
+    display : flex ;
+    align-items : center ;
+    justify-content: center ;
+    color : #292929 ;
+    position: fixed ;
+    top : 0 ;
+    left : 0 ;
+    width : 100% ;    
+    background-color: white ;
+    padding : 1.5rem
+}
+img {
+   height : 100% ;
+   object-fit : contain ;
+   flex : 15% ;
+}
+ol { 
+    text-align : center ;
+    flex : 40% ;
+    display : flex ;
+    list-style-type : none ;
+}
+ul {
+    float : right ;
+    display : flex ;
+    list-style-type : none ;
+    flex : 45% ;
+    justify-content : center ;
+}
+li { 
+    padding : 1rem ;
+}
+li>a:link  {
+    text-decoration : none ;
+    color : black ;
+}
+li>a:alink {
+    text-decoration : none ;
+    color : black ;
+}
+button { 
+    background-color: black;
+    color : white ;
+    font-size : 1.095rem;
+    padding: 8px 20px 8px 20px; 
+    padding-left : 20px;
+    border-radius : .8rem;
+    
+}

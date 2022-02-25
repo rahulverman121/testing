@@ -1,0 +1,24 @@
+#howitworks {
+    margin : 1% 15% 8% 15% ;
+    text-align: center;
+}
+.center {
+    width : 100% ;
+    
+}
+.procedure {
+    display : flex ; 
+    margin : 5% 0 0 0;
+}
+.workstitle {
+    font-size: 1.8rem ;
+    font-weight: bold ;
+}
+.schimage {
+    
+    height : 250px ;
+    
+}
+.workscontent {
+    font-size : 1.1rem ;
+}

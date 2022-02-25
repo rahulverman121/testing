@@ -1,0 +1,41 @@
+.footer {
+    font-size: 1rem ;
+}
+.upper {
+    display : flex ;
+    flex-wrap: wrap ;
+    margin : 8% 12% 8% 12% ;
+}
+.mealicon {
+    flex : 25% ;
+}
+.knowus {
+    flex : 25% ;
+    display: block;
+}
+.help {
+    flex : 25% ;
+}
+.business {
+    flex : 25% ;
+}
+
+.lower {
+    text-align : center ;
+    margin : 1% 15% 8% 15% ;
+    display: block ;
+}
+.lower>img { 
+    margin-top: 1.68rem;
+    padding : 1rem ;
+    transition: border-radius 0.1s;
+}
+.lower>img:hover {
+    border-radius: 100% ;
+    background-color: #facf85 ;
+
+}
+.lower>a:link {
+    padding : 1rem ;
+    color : black;
+}
